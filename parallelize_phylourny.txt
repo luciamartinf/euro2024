@@ -1,0 +1,1 @@
+phylourny --teams teams_0.ini --matches matches.ini --prefix bracket_0 --samples 1000 --burnin 100 ; filter.py --results  bracket_0.dynamic.samples.json --output  bracket_0.filtered.csv --field win_prob --teams  bracket_0.dynamic.teams.json ; multi.py bracket_0.filtered.csv 0
